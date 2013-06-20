@@ -305,7 +305,7 @@ void Salutations()
         
         Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
        
-        Udp.write("Hello,I am HomeCon,constructed by Irshad and Suriya;I am a personal surveillance bot; what is the password?");
+        Udp.write("Hello,I am HomeCon,my dad is Irshad;I am a personal surveillance bot; what is the password?");
        
         Udp.endPacket();
         
